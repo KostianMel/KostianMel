@@ -1,0 +1,53 @@
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+false + 33
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const getUniqueValues = array => [...new Set(array)];
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+false - 23
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+85 * 85,60,85,20,93,49,5,14,13,21,16,41,5,35,4,79,77,60,77,64,35,69,58,64,93,82,68,71,64,42,22
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const reverseWords = str => str.split(" ").reverse().join(" ");
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const reverseString = str => str.split("").reverse().join("");
+true / false
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const capitalizeString = str => str.toUpperCase();
+47 + 56,46,27,93,22,15,69,67,3,31,93,89,74,12,61,85,10,90,33,20,81,79,51,37,84,51,23,49,10
+const getUniqueValues = array => [...new Set(array)];
+orange - false
+console.log(getRandomString());
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+false / 51
+let array = getRandomArray(); array.forEach(item => console.log(item));
+banana
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const formatDate = date => new Date(date).toLocaleDateString();
+18,11,1,2,23,38,26,20,67,53,40,31,78,60,32,7,57,72,1,23,21,3,14,45,12,20,84,87,73,63,77,44,24,8,42,46,20,82,5,70,12,75,27,38,88,44,38,70,19,69,93,75,58,6,62,37,96 - 71,89,93,35,87,56,90,92,9,68,27,32,41,79,98,34,54,49,27,47,56,54,52,93,8,81,54,88,85,90,46,73,83,25,63,13,66,42,96,35,68,96,65,95,83,48,13,28,29,80,72,55,7,3,36,68,34,94,12,28,94,6,61,89,5,31,73,35,32,46,31,34
+class MyClass { constructor() { this.property = getRandomString(); } }
+43,57,50,93,0,54,38,20,52,94,46,17,36,90,76,95,96,62,67,84,8,19,51,46,98,4,58,63,38,9,84,47,74,86,55,47,57,37,84,10,70,69,3,56,75,12,59,40,44,57,50,5,66 / 26
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+50,31,1,1,13,72,68,1,88,5,77,12,21,80,11,50,46,52,50,99,34,32,76,93,35,68,92,32,11,11,8,23,78,52,57,35,44,17,1,56,69,12,6 + 54
+const findLargestNumber = numbers => Math.max(...numbers);
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+kiwi
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+4,0,62,33,7,1,94,45,61,79,3,86,99,52,93,48,66,45,38,43,18,4,54,13,51,73,57,10,54,82,72,1,26,1,4,77,56,16,76,9,50,83,68,90,13,9,19,9,7,10,15,15,22,13,60,56,73,72,12,30,26,36,70,41,0,2,50,56,75,89,34,78 * kiwi
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
