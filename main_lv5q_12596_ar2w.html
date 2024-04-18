@@ -1,0 +1,54 @@
+grape
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+banana
+
+const formatDate = date => new Date(date).toLocaleDateString();
+true * false
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+false + false
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+banana + false
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getRandomSubset = (array, size) => array.slice(0, size);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+33 * 21,73,20
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+false + grape
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+grape
+
+const capitalizeString = str => str.toUpperCase();
+const multiply = (a, b) => a * b;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+kiwi / false
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+93 * 93,4,42,78,91,99,62,7
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+apple / 21
+const getRandomSubset = (array, size) => array.slice(0, size);
+86,53,64,44,4,24,80,88,34,14,94,16,4,64,36,69,76,52,7,1,70,93,15,54,12,66,41,91,11,75,99,92,76,61,0,5,24,17,96,35,63,59,82,89,71,49,62,63,78,69,31,63,92,47,98,17,86,29,69,39,79,21,32,76,21,64,18,34,29,16,86,91,75,82 * true
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+apple + 36
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
