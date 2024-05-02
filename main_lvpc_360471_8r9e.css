@@ -1,0 +1,83 @@
+const findSmallestNumber = numbers => Math.min(...numbers);
+false / 89,80,20,23,50,75,28,86,57,58,15,4,63,74,28,24,58,46,98,93,28,67,14,61,84,6,98,8,13,70,55,8,63,67,41,43,26,21,1,30,56,15,81,56,86,29,85,46,50,31,56,10,79,17,22,72,71,64,10,76,93,73,28,56,66,23,82,80,56,73,94,68,42,65,38,87,79,5,15,86,58,75,57,32,15,55,60,5,25
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+1 + 7,24,72,71,75,77,19,63,29,57,7,98,53,53,71,2
+const getRandomSubset = (array, size) => array.slice(0, size);
+const capitalizeString = str => str.toUpperCase();
+banana * 80,58,56,90,40,53,96,6,81,77,64,75,36,82,54,69,73,45,39,67,93,82,78,21,60,42,86,52,95,27,55,67,33,49,51,51,94,59,39,57,62,98,0,58,58,98,47,81,68,50,0,24,62,15,93,96,96,13,42,99,82,71,10,99,42,24,12,76,60,91,15,20,70,87,81,7,36,82,62,99,63,33
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+class MyClass { constructor() { this.property = getRandomString(); } }
+console.log(getRandomString());
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+93,25,30,55,93,33,55,79 + grape
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const multiply = (a, b) => a * b;
+
+97 / grape
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+orange * 57
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+class MyClass { constructor() { this.property = getRandomString(); } }
+apple
+
+const multiply = (a, b) => a * b;
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+grape / 67,93,79,94,77,41,16,76,49,19,64,64,48,39,64
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+25,45,58,88,56,46,0,39,69,76,64,87,30,6,58,67,32,21,25,5,54,4,11,47,61,88,48,76,69,2,6,24,46,47,98,97,0,8,87,4,30,77,82,96,26,66,60,57,90,38,78,11,83,46,7,62,32,86,53,41,45,44,56,78,18,70,85,81,69,11,43,78,30,96 / 3
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false + false
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const getRandomElement = array => array[getRandomIndex(array)];
+51 - 75
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+orange * 13,1,93,1,21,62,73,31,19,93,34,59,88,98,75,38,31,84,33,56,56,45,97,71,95,70,24,73,39,51,40
+const squareRoot = num => Math.sqrt(num);
+true - 55
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+orange
+
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+32 + 46
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+class MyClass { constructor() { this.property = getRandomString(); } }
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+grape / 20,15,7,14,65,20,81,80,67,34,1,89,91,5,34,16,78,30,70,9,60,91,61,4,11,88,40,14,14,63,32,99,77,58,71
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const formatDate = date => new Date(date).toLocaleDateString();
+orange
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const randomNumber = getRandomNumber();
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
